@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bulma.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Tabla</title>
+</head>
+<body>
+    <div class="card row-custom">
+        <div class="card-content">
+            <div class="content">
+                <div class="contenedor">
+                    <div class="formulario">
+                        <div class="boton">
+                            <button class="button is-primary"
+                            onclick="addData();">Agregar datos</button>
+                        </div>
+                        <div class="datos">
+                            <input id="nombre" class="input is-primary" type="text" placeholder="Nombre" >
+                            <input id="ap_pat" class="input is-primary" type="text" placeholder="Apellido Paterno">
+                            <input id="ap_mat" class="input is-primary" type="text" placeholder="Apellido Materno">
+                            <input id="edad" class="input is-primary" type="text" placeholder="Edad">
+                        </div>
+                    </div>
+
+                    <div class="contenedorTabla">
+                        <table class="tables">
+                            <thead>
+                                <tr>
+                                    <th title="nombre">Nombre</th>
+                                    <th title="ap_pat">Apellido Paterno</th>
+                                    <th title="ap_mat">Apellido Materno</th>
+                                    <th title="edad">Edad</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabla">
+
+                
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./main.js"></script>
+</footer>
+</html>

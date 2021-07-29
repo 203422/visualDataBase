@@ -1,0 +1,49 @@
+.button.is-primary {
+   background-color : #1ab9b8 !important;
+   color: white;
+}
+.contenedor{
+    background-color: #158495;
+    width: 100%;
+    height: 50%;
+    padding-top: 2%;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.formulario .boton{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.formulario .boton button{
+    width: 50%;
+    height: 50px;
+    font-size: 12px;
+}
+.formulario .datos{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+    justify-content: space-around;    
+}
+.formulario .datos input{
+    width: 45%;
+    background-color:white;
+}
+
+.content table thead td, .content table thead th {
+    color: white;
+}
+
+.card{
+    color: white;
+}
+
